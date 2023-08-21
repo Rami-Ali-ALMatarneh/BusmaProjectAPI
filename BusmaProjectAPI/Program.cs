@@ -1,5 +1,5 @@
 using BusmaProjectAPI.Data;
-using BusmaProjectAPI.Model.Models;
+using BusmaProjectAPI.Model.Models.Accounts;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;

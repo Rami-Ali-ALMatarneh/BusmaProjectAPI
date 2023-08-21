@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusmaProjectAPI", "BusmaProjectAPI\BusmaProjectAPI.csproj", "{B123D0A2-9489-4321-8023-F4CFF8DC84A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusmaProjectAPI", "BusmaProjectAPI\BusmaProjectAPI.csproj", "{B123D0A2-9489-4321-8023-F4CFF8DC84A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Busma.App", "Busma.App\Busma.App.csproj", "{D9974163-BDC5-44EF-9AFE-30E01D5290B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Busma.Data", "Busma.Data\Busma.Data.csproj", "{31898ADA-41FF-4C4F-8FB8-C77AA750127E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Busma.Domain", "Busma.Domain\Busma.Domain.csproj", "{B5220E6D-37B1-4A15-8E95-734DCF7E926C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{B123D0A2-9489-4321-8023-F4CFF8DC84A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B123D0A2-9489-4321-8023-F4CFF8DC84A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B123D0A2-9489-4321-8023-F4CFF8DC84A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9974163-BDC5-44EF-9AFE-30E01D5290B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9974163-BDC5-44EF-9AFE-30E01D5290B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9974163-BDC5-44EF-9AFE-30E01D5290B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9974163-BDC5-44EF-9AFE-30E01D5290B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31898ADA-41FF-4C4F-8FB8-C77AA750127E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31898ADA-41FF-4C4F-8FB8-C77AA750127E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31898ADA-41FF-4C4F-8FB8-C77AA750127E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31898ADA-41FF-4C4F-8FB8-C77AA750127E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5220E6D-37B1-4A15-8E95-734DCF7E926C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5220E6D-37B1-4A15-8E95-734DCF7E926C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5220E6D-37B1-4A15-8E95-734DCF7E926C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5220E6D-37B1-4A15-8E95-734DCF7E926C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
